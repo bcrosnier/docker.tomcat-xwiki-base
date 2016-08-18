@@ -1,6 +1,8 @@
 # Non-functional XWiki image base
 **Be advised: XWiki won't run as-is.** The database is not configured.
 
+## [View Dockerfile](https://github.com/bcrosnier/docker.tomcat-xwiki-base/blob/master/Dockerfile)
+
 Used as base to derive other XWiki images from.
 
 This image sets up the `server.xml` used by tomcat and downloads XWiki in the `ROOT` webapp directory.
